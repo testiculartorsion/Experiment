@@ -15,7 +15,7 @@ $(document).ready(function(){
             .attr("r","20") //radius
             .attr("vx","0") //x velocity
             .attr("vy","0") //y velocity
-            .attr("style","fill:black") //colour
+            .attr("style","fill:red") //colour
     }
     //create ball and
     makeball(100,100)
@@ -41,7 +41,7 @@ $(document).ready(function(){
     var seconds=0
     mainCircle = d3.select('#mainCircle')
     timeOut = setInterval(function(){
-        ball.attr("style","fill:black")
+        ball.attr("style","fill:red")
         ball.attr("moveX",parseInt(ball.attr("cx")))
         ball.attr("moveY",parseInt(ball.attr("cx")))
         //floor (temp hacky invisible floor)
