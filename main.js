@@ -49,10 +49,10 @@ $(document).ready(function(){
             ball.attr("cy","400")
             ball.attr("vy","0")
         }
-		if (parseInt(ball.attr("cx"))<100){
+	if (parseInt(ball.attr("cx"))<100){
 			ball.attr("cx", "100")
 			ball.attr("vx", "0")
-		}
+	}
 		
         //passives forces (friction and gravity)
         if(!mouseDown){
