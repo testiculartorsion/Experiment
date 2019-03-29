@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
     var startTime = 300
     var gravity=5
@@ -50,10 +49,6 @@ $(document).ready(function(){
             ball.attr("cy","400")
             ball.attr("vy","0")
         }
-	if (parseInt(ball.attr("cx))<100){
-	    ball.attr("cx", "100")
-	    ball.attr("vx", "0")
-	}
         //passives forces (friction and gravity)
         if(!mouseDown){
             if(parseInt(ball.attr("vx"))>0){
@@ -128,4 +123,3 @@ $(document).ready(function(){
         $('#time').text("|| frames: "+time+" || seconds: "+seconds)
     }, 16.6) //number is rate lower => more refresh => faster response      
 })
-</html>
