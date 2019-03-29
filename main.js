@@ -1,5 +1,3 @@
-<html>
-
 $(document).ready(function(){
     var startTime = 300
     var gravity=5
@@ -125,4 +123,3 @@ $(document).ready(function(){
         $('#time').text("|| frames: "+time+" || seconds: "+seconds)
     }, 16.6) //number is rate lower => more refresh => faster response      
 })
-</html>
