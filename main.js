@@ -1,7 +1,7 @@
 $(document).ready(function(){
     var startTime = 300
     var gravity=5
-    var friction=0
+    var friction=1
     var maxSpeed = 20
     var mouseDown = false
     var mouseX = 0
